@@ -29,16 +29,16 @@ class MainActivity : AppCompatActivity() {
          * the key is here
          * */
         if (timeOfDay >= 0 && timeOfDay < 12){
-            greetText.setText("Selamat Pagi\nAzhar")
+            greetText.setText("Selamat Pagi\nKardi")
             greetImg.setImageResource(R.drawable.img_default_half_morning)
         } else if (timeOfDay >= 12 && timeOfDay < 15) {
-            greetText.setText("Selamat Siang\nAzhar")
+            greetText.setText("Selamat Siang\nKardi")
             greetImg.setImageResource(R.drawable.img_default_half_afternoon)
         } else if (timeOfDay >= 15 && timeOfDay < 18) {
-            greetText.setText("Selamat Sore\nAzhar")
+            greetText.setText("Selamat Sore\nKardi")
             greetImg.setImageResource(R.drawable.img_default_half_without_sun)
         } else if (timeOfDay >= 18 && timeOfDay < 24) {
-            greetText.setText("Selamat Malam\nAzhar")
+            greetText.setText("Selamat Malam\nKardi")
             greetText.setTextColor(Color.WHITE)
             greetImg.setImageResource(R.drawable.img_default_half_night)
         }
